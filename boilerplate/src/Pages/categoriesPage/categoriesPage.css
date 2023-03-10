@@ -1,0 +1,179 @@
+.breadcum {
+    margin: 30px 0;
+}
+
+.all-categories-title {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+.all-categories-title h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(58, 58, 58);
+}
+
+.all-categories-title p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+.categories-body-content {
+    margin: 60px 0;
+    display: flex;
+}
+
+.categories-left-content {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 24%;
+    height: fit-content;
+}
+
+.left-content-form-padding-20px h6 {
+    font-size: 14px;
+    padding: 20px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.allCategories---1 ul {
+    display: flex;
+    flex-direction: column;
+    height: 340px;
+    overflow: scroll;
+}
+
+.categori--item {
+    border-bottom: 1px solid rgb(182, 182, 182);
+    padding-bottom: 20px;
+}
+
+.allCategories---1 li {
+    list-style: none;
+    padding: 7px 0;
+    color: rgb(63, 63, 63);
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.span-colo-gray {
+    color: rgb(160, 160, 160);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ant-slider-track {
+    height: 5px !important;
+    background-color: #F46B5B !important;
+}
+
+.flex-fillter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories-price-fillter {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.ant-checkbox-wrapper {
+    margin-left: 0 !important;
+}
+
+.allCategories---3>.categorie-flex-col-start {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fillter-btn {
+    text-align: center;
+    color: #F46B5B;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fillter-btn button {
+    padding: 10px 40px;
+    border: none;
+    background-color: #F46B5B;
+    color: aliceblue;
+    margin: 20px;
+}
+
+.categories-right-content {
+    width: 75%;
+    margin-left: 30px;
+}
+
+.categories--products {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.border--item {
+    border: 1px solid rgb(176, 176, 176);
+    border-radius: 10px;
+}
+
+.categories--product--item {
+    display: flex;
+    flex-direction: column;
+    padding: 18px 30px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.categories--product--item img {
+    width: 35px;
+    margin-bottom: 10px;
+}
+
+/* brands ======= */
+.feature---brand {
+    margin: 40px 0;
+    color: rgb(74, 74, 74);
+}
+
+.feature---brand img {
+    opacity: 0.7;
+    width: 130px;
+
+}
+
+.brands---row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-ikon {
+    width: 100px !important;
+}
+
+/* prodduct list */
+.categories-product-list{
+    padding-top: 40px;
+}
+.product-list-title-review{
+    display: flex;
+    justify-content: space-between;
+}
+.product-list-title-review span{
+    color: #F46B5B;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.grid-product---item {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 20px;
+}

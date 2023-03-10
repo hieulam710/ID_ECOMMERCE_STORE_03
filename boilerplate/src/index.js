@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import LoginPage from './components/loginPage/LoginPage';
-import RegisterPage from './components/loginPage/RegisterPage';
-import Test from './components/test';
+import App from './App';
+import CategoriesPage from './Pages/categoriesPage/CategoriesPage';
+import LoginPage from './Pages/login-register/LoginPage';
+import RegisterPage from './Pages/login-register/RegisterPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RegisterPage/>
+    <CategoriesPage/>
   </React.StrictMode>
 );
 
