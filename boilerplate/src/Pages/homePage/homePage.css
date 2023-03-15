@@ -1,0 +1,9 @@
+
+/* responsive ========== */
+
+@media (max-width:991px){
+
+    html{
+        font-size: 155%;
+    }
+}
