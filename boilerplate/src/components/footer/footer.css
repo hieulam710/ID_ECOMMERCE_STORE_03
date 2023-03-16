@@ -1,0 +1,13 @@
+@media screen and (max-width : 600px) {
+    .footer{
+        width: fit-content;
+    }
+    .footer-btn{
+        position: relative;
+    }
+    .footer-btn button{
+        position: absolute;
+        top: 8px
+    }
+    
+}

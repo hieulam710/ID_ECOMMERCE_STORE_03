@@ -1,3 +1,5 @@
+import "./categories.css"
+
 function CategoriesComponent() {
     return (<>
         <div className="category-container">

@@ -71,10 +71,10 @@ function ProductDetail() {
                         </div>
                     </div>
                     <div className="product-detail-right">
-                        <Breadcrumb separator=">"
+                        {/* <Breadcrumb separator=">"
                             items={[{ title: 'Product' },
                             { title: 'Wireless Microphone', href: '', }]}
-                        ></Breadcrumb>
+                        ></Breadcrumb> */}
                         <div className="rate--add-to-wishlish">
                             <div>
                                 <Rate defaultValue={5} disabled />

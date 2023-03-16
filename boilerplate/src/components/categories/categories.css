@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px) {
+    .category-container{
+        padding:10px 40px;
+    }
+    .category-container h2{
+        font-size: 200%;
+    }
+    .category-flex{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 40px;
+    }
+    .category-item{
+        width: 100%;
+    }
+    .category-item img{
+        width: 70px;
+    }
+}

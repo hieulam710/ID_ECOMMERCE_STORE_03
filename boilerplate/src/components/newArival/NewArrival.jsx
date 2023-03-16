@@ -1,4 +1,4 @@
-
+import "./newArrival.css"
 
 function NewArrival() {
     return (<>

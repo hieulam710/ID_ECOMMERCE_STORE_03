@@ -1,0 +1,25 @@
+@media  screen and (max-width: 600px) {
+    .flashSale-container{
+        padding: 10px 40px;
+        font-size: 200%;
+    }    
+    .flashSale-container .flex-row-1 .flash-sale span{
+        font-size: 180%;
+    }
+    .countdown{
+        height: 110px;
+    }
+    .countdown-item{
+        padding: 10px 20px;
+    }
+    .countdown-item span{
+            font-size: 35px;
+    }
+    
+    .item-sale{
+        width: 100%;
+    } 
+    .item-sale .image-product{
+        width: 100%;
+    }
+}

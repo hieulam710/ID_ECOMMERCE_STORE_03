@@ -1,7 +1,10 @@
+import "./feature.css"
+
+
 function Feature() {
     return (<>
         <div className="feature-wrapper">
-            <div className=' witdh-25'>
+            <div className='witdh-25'>
                 <span className='best-collection'>
                     Best Collection
                 </span>
