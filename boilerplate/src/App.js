@@ -6,7 +6,7 @@ import ProductDetail from "./Pages/productDetail/ProductDetail";
 function App() {
   return (
       <>
-        <ProductDetail/>
+        <HomePage/>
       </>);
 }
 
