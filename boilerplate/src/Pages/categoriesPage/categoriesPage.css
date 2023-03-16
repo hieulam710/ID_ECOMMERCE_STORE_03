@@ -5,7 +5,7 @@
 .all-categories-title {
     text-align: center;
     width: 500px;
-    margin: auto;
+    margin: 40px auto;
 }
 
 .all-categories-title h1 {
@@ -176,4 +176,42 @@
     display: grid;
     grid-template-columns: auto auto auto ;
     gap: 20px;
+}
+
+/* responsive */
+
+@media screen and (max-width :600px){
+    .breadcum {
+        position: relative;
+    }
+    .breadcum nav{
+        width: fit-content;
+    }
+    .categories--products{
+        grid-template-columns: auto auto auto;
+    }
+    .categories--products span{
+        font-size: 130%;
+    }
+    .categories--products img{
+        width: 60px;
+    }
+    .categories-left-content {
+        width: 32%;
+    }
+    .categories-left-content h6{
+        font-size: 24px;
+    }
+    .allCategories---1 li {
+        font-size: 20px;
+    }
+    .ant-checkbox-wrapper{
+        font-size: 20px;
+    }
+    .categories-page h2{
+        font-size: 30px;
+    }
+    .grid-product---item{
+        grid-template-columns: auto auto;
+    }
 }

@@ -1,0 +1,22 @@
+@media screen and (max-width :600px){
+    .feature-wrapper {
+        flex-direction: column;
+        padding: 10px 40px;
+        height: fit-content;position: relative;
+    }
+    .feature-title-header{
+        font-size: 220%;
+    }
+    .feature-wrapper .witdh-25{
+        width: 100% ;
+        text-align: center;
+        height: fit-content;
+        margin-bottom: 10px;
+    }
+    .best-collection{
+        width: 100%;
+    }
+    .feature-product-right{
+        width: 100%;
+    }
+}

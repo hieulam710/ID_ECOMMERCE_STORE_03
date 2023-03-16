@@ -10,18 +10,18 @@ function CategoriesPage() {
     return (<>
         <div className="categories-page container">
             <Header />
-            <div className="breadcum">
-                <Breadcrumb
-                    items={[
-                        {
-                            title: 'Home',
-                        },
-                        {
-                            title: <a href="">All Categories</a>,
-                        }
-                    ]}
-                />
-            </div>
+                {/* <div className="breadcum">
+                    <Breadcrumb
+                        items={[
+                            {
+                                title: 'Home',
+                            },
+                            {
+                                title: <a href="">All Categories</a>,
+                            }
+                        ]}
+                    />
+                </div> */}
             <div className="all-categories-title">
                 <h1>All Categories</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. </p>

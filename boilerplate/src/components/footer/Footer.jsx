@@ -1,4 +1,5 @@
 import { InstagramOutlined , FacebookFilled ,TwitterOutlined} from "@ant-design/icons";
+import "./footer.css"
 
 function Footer() {
     return ( <>

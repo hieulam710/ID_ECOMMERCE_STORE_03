@@ -9,7 +9,7 @@ import Header from "../../components/header/Header";
 import Heroes from "../../components/heroes/Heroes";
 import NewArrival from "../../components/newArival/NewArrival";
 import TopRate from "../../components/topRate/TopRate";
-
+// import { NavLink } from "react-router-dom";
 
 
 

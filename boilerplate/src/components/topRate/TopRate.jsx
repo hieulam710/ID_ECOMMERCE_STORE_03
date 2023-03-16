@@ -1,3 +1,6 @@
+
+import "./toprate.css"
+
 import { HeartFilled } from "@ant-design/icons";
  export function ProductItem() {
     return (<>

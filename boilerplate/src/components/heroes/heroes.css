@@ -1,0 +1,26 @@
+@media  screen and (max-width: 600px) {
+    .hero-container{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .slide-auto{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .hero-right{
+        flex-direction: row;
+        width: 70%;
+        margin: 15px auto;
+    }
+    .hero-box-1{
+        width: 50%;
+    }
+   
+    .hero-right button{
+        font-size: 33px;
+        left: 4%;
+        top: 27%;
+        height: 105px;
+    }
+}

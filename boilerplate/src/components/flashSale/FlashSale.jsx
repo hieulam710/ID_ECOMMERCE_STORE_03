@@ -1,5 +1,24 @@
-import {  Progress } from 'antd';
+import { Progress } from 'antd';
+import "./flashSale.css"
 
+function ProductItem() {
+    return (<>
+
+        <div className='item-sale border-chung-2 text-aline-center'>
+            <div className='image-product'>
+                <img src="/images/download.jpeg" width={"100%"} />
+            </div>
+            <div className='product-detail'>
+                <span className='product-name'> Wireless Headphone</span>
+                <span className='product-price'>$19.99</span>
+                <div style={{ display: 'flex', justifyContent: "space-between" }}>
+                    <span>Avalible:10</span>
+                    <span> Sold:5</span>
+                </div>
+                <Progress percent={50} showInfo={false} />
+            </div>
+        </div></>)
+}
 
 function FlashSale() {
     return (<>
@@ -11,7 +30,7 @@ function FlashSale() {
                     </div>
                     <div className='countdown'>
                         <div className='countdown-item border-chung-2'>
-                            <div className='numver-1 number-4 poppins-bold-bittersweet-24px'>
+                            <div className='number-1 number-4 poppins-bold-bittersweet-24px'>
                                 <span className='poppins-bold-bittersweet-24px'>1</span>
                             </div>
                             <div className='hrs poppin-normal-quick-silver-18px'>
@@ -19,7 +38,7 @@ function FlashSale() {
                             </div>
                         </div>
                         <div className='countdown-item border-chung-2'>
-                            <div className='numver-2 number-4 poppins-bold-bittersweet-24px'>
+                            <div className='number-2 number-4 poppins-bold-bittersweet-24px'>
                                 <span className='poppins-bold-bittersweet-24px'>34</span>
                             </div>
                             <div className='hrs poppin-normal-quick-silver-18px'>
@@ -27,7 +46,7 @@ function FlashSale() {
                             </div>
                         </div>
                         <div className='countdown-item border-chung-2'>
-                            <div className='numver-3 number-4 poppins-bold-bittersweet-24px'>
+                            <div className='number-3 number-4 poppins-bold-bittersweet-24px'>
                                 <span className='poppins-bold-bittersweet-24px'>12</span>
                             </div>
                             <div className='hrs poppin-normal-quick-silver-18px'>
@@ -39,48 +58,12 @@ function FlashSale() {
             </div>
             <div className='flash-sale-product'>
                 <div className='flex-row-3-item'>
-                    <div className='item-sale border-chung-2 text-aline-center'>
-                        <div className='image-product'>
-                            <img src="/images/download.jpeg" width={"100%"} />
-                        </div>
-                        <div className='product-detail'>
-                            <span className='product-name'> Wireless Headphone</span>
-                            <span className='product-price'>$19.99</span>
-                            <div style={{ display: 'flex', justifyContent: "space-between" }}>
-                                <span>Avalible:10</span>
-                                <span> Sold:5</span>
-                            </div>
-                            <Progress percent={50} showInfo={false} />
-                        </div>
-                    </div>
-                    <div className='item-sale border-chung-2 text-aline-center'>
-                        <div className='image-product'>
-                            <img src="/images/download.jpeg" width={"100%"} />
-                        </div>
-                        <div className='product-detail'>
-                            <span className='product-name'> Wireless Headphone</span>
-                            <span className='product-price'>$19.99</span>
-                            <div style={{ display: 'flex', justifyContent: "space-between" }}>
-                                <span>Avalible:10</span>
-                                <span> Sold:5</span>
-                            </div>
-                            <Progress percent={50} showInfo={false} />
-                        </div>
-                    </div>
-                    <div className='item-sale border-chung-2 text-aline-center'>
-                        <div className='image-product'>
-                            <img src="/images/download.jpeg" width={"100%"} />
-                        </div>
-                        <div className='product-detail'>
-                            <span className='product-name'> Wireless Headphone</span>
-                            <span className='product-price'>$19.99</span>
-                            <div style={{ display: 'flex', justifyContent: "space-between" }}>
-                                <span>Avalible:10</span>
-                                <span> Sold:5</span>
-                            </div>
-                            <Progress percent={50} showInfo={false} />
-                        </div>
-                    </div>
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
                 </div>
             </div>
         </div>

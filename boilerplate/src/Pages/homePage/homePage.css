@@ -1,9 +1,22 @@
 
-/* responsive ========== */
-
-@media (max-width:991px){
-
-    html{
-        font-size: 155%;
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+    html,span ,input {
+        font-size: 135%;
+        width: fit-content;
+    }
+    .container{
+        padding: 0 30px ;
+    }
+    button{
+        font-size: 100%;
     }
 }
+ */
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+

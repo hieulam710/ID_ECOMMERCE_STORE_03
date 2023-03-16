@@ -1,0 +1,12 @@
+@media screen and (max-width:600px){
+    .toprate-container{
+        padding: 10px 40px;
+    }
+    .toprate-title{
+        font-size: 155%;
+    }.toprate-body{
+        display:grid;
+        grid-template-columns: auto auto auto;
+        padding: 0px 30px;
+    }
+}
