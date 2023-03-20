@@ -8,11 +8,7 @@ function CheckOutPage() {
         <div className="check-out-page container">
             <Header />
             <div className="check-out-body">
-                <Breadcrumb
-                    separator=">" items={[{ title: 'Home' },
-                    { title: 'My Cart', href: '', },
-                    { title: 'Check Out', href: '' }]}
-                />
+                
                 <h1>Check Out</h1>
                 <Steps
                     current={1}
