@@ -17,3 +17,6 @@
         width: 70px;
     }
 }
+.category-item:hover{
+    cursor: pointer;
+}

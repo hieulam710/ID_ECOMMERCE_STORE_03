@@ -4,24 +4,22 @@ import "./categoriesPage.css";
 import { Breadcrumb, Slider, Checkbox, Rate } from 'antd';
 import { DownOutlined } from "@ant-design/icons";
 import { ProductItem } from "../../components/topRate/TopRate";
+import { useState ,useEffect } from "react";
+
 
 
 function CategoriesPage() {
+    const [dataTopRate , setDataTopRate] = useState([])
+    useEffect(()=>{
+        fetch("http://localhost:3000/topRate")
+        .then((response) => response.json())
+        .then((data) => setDataTopRate(data)
+        );
+    },[])
     return (<>
         <div className="categories-page container">
             <Header />
-                {/* <div className="breadcum">
-                    <Breadcrumb
-                        items={[
-                            {
-                                title: 'Home',
-                            },
-                            {
-                                title: <a href="">All Categories</a>,
-                            }
-                        ]}
-                    />
-                </div> */}
+             
             <div className="all-categories-title">
                 <h1>All Categories</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. </p>
@@ -182,12 +180,13 @@ function CategoriesPage() {
                             <span>View All</span>
                         </div>
                         <div className="grid-product---item">
-                            <ProductItem/>
-                            <ProductItem/>
-                            <ProductItem/>
-                            <ProductItem/>
-                            <ProductItem/>
-                            <ProductItem/>
+                            <ProductItem dataT={dataTopRate[0] != undefined ? dataTopRate[0] : ""}/>
+                            <ProductItem dataT={dataTopRate[0] != undefined ? dataTopRate[1] : ""}/>
+                            <ProductItem dataT={dataTopRate[0] != undefined ? dataTopRate[2] : ""}/>
+                            <ProductItem dataT={dataTopRate[0] != undefined ? dataTopRate[3] : ""}/>
+                            <ProductItem dataT={dataTopRate[0] != undefined ? dataTopRate[4] : ""}/>
+                            <ProductItem dataT={dataTopRate[0] != undefined ? dataTopRate[5] : ""}/>
+
                         </div>
                     </div>
                 </div>

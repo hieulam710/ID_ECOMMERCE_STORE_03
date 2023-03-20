@@ -1,7 +1,7 @@
 import "./productDetail.css"
 import Header from "../../components/header/Header"
 import Footer from "../../components/footer/Footer"
-import { Breadcrumb, Avatar, Rate } from 'antd';
+import { Avatar, Rate } from 'antd';
 import { useState } from "react";
 import { HeartFilled } from '@ant-design/icons';
 

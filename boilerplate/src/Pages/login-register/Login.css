@@ -12,7 +12,6 @@
 
 }
 .login-wrapper{
-    width: 70%;
     height: 100%;
     display: flex;
     margin: auto;
@@ -36,9 +35,10 @@
     margin: 20px 0;
 }
 .icon-png{
-    width: 20px;
+    width: 22px;
     position: relative;
-   
+    top: 37px;
+    margin: 0 10px;
 }
 .input--field{
     display: flex;
@@ -55,16 +55,9 @@
     border: 1px solid rgb(199, 199, 199);
     width: 100%;
 }
-.icon--1{
-    top:35px;
-    left: 10px;
-}
-.icon--2{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10px;
-    top: 34px;
+
+.icon-2-right{
+    float :right
 }
 .login-logout-btn{
     width: 100%;background-color:  #F46B5B;
